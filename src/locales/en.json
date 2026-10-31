@@ -1,0 +1,9 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, my name is Fabian"
+  }
+}

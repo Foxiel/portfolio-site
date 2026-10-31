@@ -1,11 +1,5 @@
 <script>
-    let activeTab = $state('projecten');
-
-    const navItems = [
-        { id: 'projects', label: 'Projects' },
-        { id: 'aboutme', label: 'About me' },
-        { id: 'contact', label: 'Contact' },
-    ];
+    import { t, locale } from 'svelte-i18n';
 </script>
 
 <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
@@ -15,15 +9,17 @@
             Foxie portfolio
         </a>
 
-        <nav class="hidden sm:flex items-center gap-2">
-            {#each navItems as item}
-                <button class="px-4 py-2 rounded-xl text-sm font-medium transition duration-150 cursor-pointer border {activeTab === item.id
-            ? 'bg-slate-900 text-orange-400 border-slate-700/80 shadow-inner'
-            : 'text-slate-400 border-transparent hover:text-slate-100 hover:bg-slate-900/50'}"
-                >
-                    {item.label}
-                </button>
-            {/each}
+        <nav class="flex items-center justify-between p-4">
+            <div class="space-x-6">
+                <a href="#projects">{$t('nav.projects')}</a>
+                <a href="#contact">{$t('nav.contact')}</a>
+            </div>
+
+            <div class="flex gap-2">
+                <button onclick={() => locale.set('en')} class="px-2 py-1 rounded bg-zinc-800 text-white">EN</button>
+                <button onclick={() => locale.set('de')} class="px-2 py-1 rounded bg-zinc-800 text-white">DE</button>
+                <button onclick={() => locale.set('nl')} class="px-2 py-1 rounded bg-zinc-800 text-white">NL</button>
+            </div>
         </nav>
     </div>
 </header>
