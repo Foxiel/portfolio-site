@@ -7,7 +7,14 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Hoi, mijn naam is Fabian"
+    "greeting": "Hoi, ik ben Fabian",
+    "bio": "Ik ben een developer die houdt van het hele softwareproces, van robuuste backend-logica tot strakke frontend-interfaces. Of ik nu praktische dashboards en tools bouw of experimenteer met nieuwe technologieën: ik duik graag in uitdagingen om dingen te creëren die werken en mezelf continu te blijven ontwikkelen.",
+    "interests_title": "Waar ik me op richt:",
+    "interest_1": "Game Development",
+    "interest_2": "Web Development",
+    "interest_3": "App Development",
+    "interest_4": "Minecraft Plugin Development",
+    "used_technologies": "Waar ik mee werk"
   },
     "contact": {
         "title": "Contact"

@@ -7,8 +7,14 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Hi, my name is Fabian",
-    "description": ""
+    "greeting": "Hi, I am Fabian",
+    "bio": "I am a developer who loves the entire software process, from backend logic to clean frontend interfaces. Whether I am building practical dashboards, tools, or experimenting with new technologies, I enjoy diving into challenges to create things that work and continuously expand my skills.",
+    "interests_title": "What I focus on:",
+    "interest_1": "Game Development",
+    "interest_2": "Web Development",
+    "interest_3": "App Development",
+    "interest_4": "Minecraft Plugin Development",
+    "used_technologies": "What I work with"
   },
     "contact": {
         "title": "Contact"
