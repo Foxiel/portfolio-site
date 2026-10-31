@@ -1,5 +1,7 @@
 <script>
     import { t, locale } from 'svelte-i18n';
+
+    let { currentPage  = $bindable() } = $props();
 </script>
 
 <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
@@ -11,8 +13,9 @@
 
         <nav class="flex items-center justify-between p-4">
             <div class="space-x-6">
-                <a href="#projects">{$t('nav.projects')}</a>
-                <a href="#contact">{$t('nav.contact')}</a>
+                <button onclick={() => currentPage = 'home'} class="hover:text-zinc-400">Home</button>
+                <button onclick={() => currentPage = 'projects'} class="hover:text-zinc-400">{$t('nav.projects')}</button>
+                <button onclick={() => currentPage = 'contact'} class="hover:text-zinc-400">{$t('nav.contact')}</button>
             </div>
 
             <div class="flex gap-2">

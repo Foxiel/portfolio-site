@@ -3,7 +3,13 @@
     "projects": "Projekte",
     "contact": "Kontakt"
   },
-  "hero": {
+  "home": {
     "title": "Hallo, mein Name ist Fabian"
-  }
+  },
+  "contact": {
+    "title": "Kontakt"
+  },
+    "projects": {
+        "title": "Projekte"
+    }
 }
