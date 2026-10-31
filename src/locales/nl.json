@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "projects": "Projecten",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Hoi, mijn naam is Fabian"
+  },
+    "contact": {
+        "title": "Contact"
+    },
+    "projects": {
+        "title": "Projecten"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Hi, my name is Fabian"
+  },
+    "contact": {
+        "title": "Contact"
+    },
+    "projects": {
+        "title": "Projects"
+    }
+}
