@@ -14,16 +14,16 @@
             technologies: ['C#', '.NET MAUI', 'ASP.NET MVC', 'Razor Pages', 'SQL'],
             githubs: [
                 {
-                    label: 'Delivery',
-                    url: 'https://github.com/Foxiel/delivery-management-systeem'
+                    labelKey: 'projects.repository_labels.order',
+                    url: 'https://github.com/Foxiel/order-management-systeem'
                 },
                 {
-                    label: 'Admin',
+                    labelKey: 'projects.repository_labels.admin',
                     url: 'https://github.com/Foxiel/admin-management-systeem'
                 },
                 {
-                    label: 'Order',
-                    url: 'https://github.com/Foxiel/order-management-systeem'
+                    labelKey: 'projects.repository_labels.delivery',
+                    url: 'https://github.com/Foxiel/delivery-management-systeem'
                 }
             ]
         },
@@ -127,7 +127,7 @@
                                             class="size-5 invert"
                                             aria-hidden="true"
                                         />
-                                        {github.label}
+                                        {$t(github.labelKey)}
                                     </a>
                                 {/each}
                             {/if}

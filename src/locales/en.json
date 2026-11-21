@@ -25,6 +25,11 @@
         "title": "Projects",
         "private": "Private project",
         "view_code": "View code",
+        "repository_labels": {
+            "delivery": "Delivery",
+            "admin": "Admin",
+            "order": "Orders"
+        },
         "items": {
             "pawstamps": {
                 "title": "Pawstamps",

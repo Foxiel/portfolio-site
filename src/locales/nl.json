@@ -25,6 +25,11 @@
         "title": "Projecten",
         "private": "Privéproject",
         "view_code": "Bekijk code",
+        "repository_labels": {
+            "delivery": "Bezorging",
+            "admin": "Beheer",
+            "order": "Bestellingen"
+        },
         "items": {
             "pawstamps": {
                 "title": "Pawstamps",

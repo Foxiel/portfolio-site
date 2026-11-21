@@ -25,22 +25,27 @@
         "title": "Projekte",
         "private": "Privates Projekt",
         "view_code": "Code ansehen",
+        "repository_labels": {
+            "delivery": "Lieferung",
+            "admin": "Verwaltung",
+            "order": "Bestellungen"
+        },
         "items": {
             "pawstamps": {
                 "title": "Pawstamps",
-                "description": "Eine von Pokemon GO inspirierte Sticker-Sammel-App. Nutzer konnen Sticker hochladen und durchsuchen, Orte finden und bestätigen, ob Sticker noch vorhanden sind. Das Konzept richtet sich hauptsächlich an die Furry-Community."
+                "description": "Eine von Pokemon GO inspirierte Sticker-Sammel-App. Nutzer können Sticker hochladen und durchsuchen, Orte finden und bestätigen, ob Sticker noch vorhanden sind. Das Konzept richtet sich hauptsächlich an die Furry-Community."
             },
             "management": {
                 "title": "Management-Systeme",
-                "description": "Eine Reihe zusammenhangender Gruppenprojekte für die Zuyd Hogeschool im Wahlmodul Interface Development. Gemeinsam haben wir Anwendungen für Delivery-, Admin- und Ordermanagement entwickelt."
+                "description": "Eine Reihe zusammenhängender Gruppenprojekte für die Zuyd Hogeschool im Wahlmodul Interface Development. Gemeinsam haben wir Anwendungen für Delivery-, Admin- und Ordermanagement entwickelt."
             },
             "teamborder": {
                 "title": "TeamBorder",
-                "description": "Ein Multiplayer-Minecraft-Minispiel, bei dem Teams zusammenarbeiten, um die Worldborder zu vergroßern. Sie wird kleiner, wenn ein Spieler stirbt, und wächst nach einem Tag ohne Todesfall."
+                "description": "Ein Multiplayer-Minecraft-Minispiel, bei dem Teams zusammenarbeiten, um die Worldborder zu vergrößern. Sie wird kleiner, wenn ein Spieler stirbt, und wächst nach einem Tag ohne Todesfall."
             },
             "staffgui": {
                 "title": "Staff-GUI",
-                "description": "Ein mit Kotlin entwickeltes Spielerveraltungs-Plugin, das die neuen Minecraft-Dialoge für eine moderne Staff-Oberflache nutzt."
+                "description": "Ein mit Kotlin entwickeltes Spielerverwaltungs-Plugin, das die neuen Minecraft-Dialoge für eine moderne Staff-Oberfläche nutzt."
             },
             "todo": {
                 "title": "Todo App",
@@ -48,11 +53,11 @@
             },
             "datacopier": {
                 "title": "Data Copier",
-                "description": "Ein Praktikumsprojekt mit ASP.NET MVC, mit dem Entwickler Verbindungen zu mehreren Datenbanken herstellen konnten. Dabei konnten genau die Datenbanken, Tabellen und Spalten ausgewahlt werden, die kopiert werden sollten, zum Beispiel von einer Produktionsdatenbank in eine lokale Entwicklungsdatenbank."
+                "description": "Ein Praktikumsprojekt mit ASP.NET MVC, mit dem Entwickler Verbindungen zu mehreren Datenbanken herstellen konnten. Dabei konnten genau die Datenbanken, Tabellen und Spalten ausgewählt werden, die kopiert werden sollten, zum Beispiel von einer Produktionsdatenbank in eine lokale Entwicklungsdatenbank."
             },
             "minesweeper": {
                 "title": "Minesweeper",
-                "description": "Eine Minesweeper-Neuentwicklung, die derzeit in Unity umgesetzt wird und spater auch in Godot nachgebaut werden soll, um beide Engines zu vergleichen. Anschließend mache ich die Version in der Engine, mit der ich am liebsten arbeite, online und multiplayer-fahig."
+                "description": "Eine Minesweeper-Neuentwicklung, die derzeit in Unity umgesetzt wird und später auch in Godot nachgebaut werden soll, um beide Engines zu vergleichen. Anschließend mache ich die Version in der Engine, mit der ich am liebsten arbeite, online- und multiplayerfähig."
             }
         }
     },
