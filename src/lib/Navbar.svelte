@@ -4,24 +4,53 @@
     let { currentPage  = $bindable() } = $props();
 </script>
 
-<header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+<header class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md">
+    <div class="mx-auto flex h-16 max-w-5xl items-center px-4 md:px-6">
+        <nav class="w-full" aria-label="Hoofdnavigatie">
+            <div class="flex items-center justify-between gap-4">
+                <div class="flex items-center gap-1 md:gap-4">
+                    <button
+                        onclick={() => currentPage = 'home'}
+                        class="px-1 py-2 text-lg font-medium transition-colors hover:text-white md:px-2 md:text-xl"
+                        class:text-white={currentPage === 'home'}
+                        class:text-zinc-400={currentPage !== 'home'}
+                    >
+                        {$t('nav.home')}
+                    </button>
+                    <button
+                        onclick={() => currentPage = 'projects'}
+                        class="px-1 py-2 text-lg font-medium transition-colors hover:text-white md:px-2 md:text-xl"
+                        class:text-white={currentPage === 'projects'}
+                        class:text-zinc-400={currentPage !== 'projects'}
+                    >
+                        {$t('nav.projects')}
+                    </button>
+                    <button
+                        onclick={() => currentPage = 'changes'}
+                        class="px-1 py-2 text-lg font-medium transition-colors hover:text-white md:px-2 md:text-xl"
+                        class:text-white={currentPage === 'changes'}
+                        class:text-zinc-400={currentPage !== 'changes'}
+                    >
+                        {$t('nav.changes')}
+                    </button>
+                    <button
+                        onclick={() => currentPage = 'contact'}
+                        class="px-1 py-2 text-lg font-medium transition-colors hover:text-white md:px-2 md:text-xl"
+                        class:text-white={currentPage === 'contact'}
+                        class:text-zinc-400={currentPage !== 'contact'}
+                    >
+                        {$t('nav.contact')}
+                    </button>
+                </div>
 
-        <a href="/" class="flex items-center gap-2 group cursor-pointer">
-            Foxie portfolio
-        </a>
-
-        <nav class="flex items-center justify-between p-4">
-            <div class="space-x-6">
-                <button onclick={() => currentPage = 'home'} class="hover:text-zinc-400">Home</button>
-                <button onclick={() => currentPage = 'projects'} class="hover:text-zinc-400">{$t('nav.projects')}</button>
-                <button onclick={() => currentPage = 'contact'} class="hover:text-zinc-400">{$t('nav.contact')}</button>
-            </div>
-
-            <div class="flex gap-2">
-                <button onclick={() => locale.set('en')} class="px-2 py-1 rounded bg-zinc-800 text-white">EN</button>
-                <button onclick={() => locale.set('de')} class="px-2 py-1 rounded bg-zinc-800 text-white">DE</button>
-                <button onclick={() => locale.set('nl')} class="px-2 py-1 rounded bg-zinc-800 text-white">NL</button>
+                <select
+                    bind:value={$locale}
+                    class="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 font-medium text-zinc-300"
+                >
+                    <option value="en">EN</option>
+                    <option value="de">DE</option>
+                    <option value="nl">NL</option>
+                </select>
             </div>
         </nav>
     </div>

@@ -1,15 +1,72 @@
 {
+  "meta": {
+    "title": "Fabian Verhagen | Software Developer"
+  },
   "nav": {
+    "home": "Home",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "changes": "Changes"
   },
   "home": {
-    "title": "Hi, my name is Fabian"
+    "greeting": "Hi, I am Fabian",
+    "bio": "I am a developer who loves the entire software process, from backend logic to clean frontend interfaces. Whether I am building practical dashboards, tools, or experimenting with new technologies, I enjoy diving into challenges to create things that work and continuously expand my skills.",
+    "interests_title": "What I focus on:",
+    "interest_1": "Game Development",
+    "interest_2": "Web Development",
+    "interest_3": "App Development",
+    "interest_4": "Minecraft Plugin Development",
+    "used_technologies": "What I work with"
   },
     "contact": {
         "title": "Contact"
     },
     "projects": {
-        "title": "Projects"
+        "title": "Projects",
+        "private": "Private project",
+        "view_code": "View code",
+        "repository_labels": {
+            "delivery": "Delivery",
+            "admin": "Admin",
+            "order": "Orders"
+        },
+        "items": {
+            "pawstamps": {
+                "title": "Pawstamps",
+                "description": "A sticker collection app inspired by Pokemon GO. Users can upload and browse stickers, search for their locations, and confirm whether they are still available. The concept is mainly aimed at the furry community."
+            },
+            "management": {
+                "title": "Management Systems",
+                "description": "A set of related group projects for Zuyd University of Applied Sciences in the Interface Development module. Together, we developed delivery, admin and order management applications for delivery processes, administration and order handling."
+            },
+            "teamborder": {
+                "title": "TeamBorder",
+                "description": "A multiplayer Minecraft minigame where teams work together to expand the world border. The border shrinks when a player dies and grows after a day without deaths."
+            },
+            "staffgui": {
+                "title": "Staff-GUI",
+                "description": "A player management plugin built with Kotlin, using Minecraft dialogs to provide staff members with a modern interface."
+            },
+            "todo": {
+                "title": "Todo App",
+                "description": "A React practice application I built for my internship company to become familiar with React, Firebase and Material UI before starting my internship."
+            },
+            "datacopier": {
+                "title": "Data Copier",
+                "description": "An internship project built with ASP.NET MVC that allowed developers to connect to multiple databases. It was possible to select exactly which databases, tables and columns to copy, for example from a production database to a local development database."
+            },
+            "minesweeper": {
+                "title": "Minesweeper",
+                "description": "A Minesweeper remake currently built in Unity and planned to be recreated in Godot to compare both engines. I will then make the version in the engine I enjoy working with the most playable online with multiplayer."
+            }
+        }
+    },
+    "changes": {
+        "title": "What will be changed",
+        "description": "Here is a list of things I want to improve or add to my portfolio.",
+        "no_changes": "There are currently no changes planned.",
+        "changes_list": [
+            "A complete change of the look and feel of the website"
+        ]
     }
 }
