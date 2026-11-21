@@ -7,7 +7,6 @@
     "contact": "Kontakt"
   },
   "home": {
-      "home": {
         "greeting": "Hallo, ich bin Fabian",
         "bio": "Ich bin ein Entwickler, der den gesamten Softwareprozess liebt, von Backend-Logik bis hin zu sauberen Frontend-Schnittstellen. Ob ich praktische Dashboards und Tools baue oder mit neuen Technologien experimentiere: Ich liebe es, mich neuen Herausforderungen zu stellen, funktionierende Dinge zu erschaffen und meine Fähigkeiten ständig zu erweitern.",
         "interests_title": "Worauf ich mich konzentriere:",
@@ -16,7 +15,6 @@
         "interest_3": "App Development",
         "interest_4": "Minecraft Plugin Development",
         "used_technologies": "Womit ich arbeite"
-    }
   },
   "contact": {
     "title": "Kontakt"

@@ -48,7 +48,7 @@
             </div>
         </section>
 
-        <section class="bg-zinc-900/50 p-6 rounded-xl border border-zinc-800/80">
+        <section>
             <h2 class="text-sm font-semibold tracking-wider text-zinc-400 uppercase mb-4">
                 {$t('home.used_technologies')}
             </h2>
