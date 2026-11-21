@@ -3,8 +3,10 @@
     "title": "Fabian Verhagen | Software Developer"
   },
   "nav": {
+    "home": "Home",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "changes": "Changes"
   },
   "home": {
     "greeting": "Hi, I am Fabian",
@@ -21,5 +23,10 @@
     },
     "projects": {
         "title": "Projects"
+    },
+    "changes": {
+        "title": "What will be changed",
+        "description": "Here is a list of things I want to improve or add to my portfolio.",
+        "no_changes": "There are currently no changes planned."
     }
 }

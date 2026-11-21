@@ -3,8 +3,10 @@
     "title": "Fabian Verhagen | Software Developer"
   },
   "nav": {
+    "home": "Home",
     "projects": "Projecten",
-    "contact": "Contact"
+    "contact": "Contact",
+    "changes": "Wijzigingen"
   },
   "home": {
     "greeting": "Hoi, ik ben Fabian",
@@ -21,5 +23,10 @@
     },
     "projects": {
         "title": "Projecten"
+    },
+    "changes": {
+        "title": "Wat er nog aangepast gaat worden",
+        "description": "Hier is een lijst van dingen die ik nog wil verbeteren of toevoegen aan mijn portfolio.",
+        "no_changes": "Er zijn momenteel geen wijzigingen gepland."
     }
 }
