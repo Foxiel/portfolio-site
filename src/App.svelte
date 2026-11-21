@@ -3,6 +3,7 @@
   import Home from './pages/Home.svelte';
   import Contact from './pages/Contact.svelte';
   import Projects from './pages/Projects.svelte';
+  import Changes from './pages/Changes.svelte';
   import { t } from 'svelte-i18n';
 
   let currentPage = $state('home');
@@ -20,6 +21,8 @@
       <Home />
     {:else if currentPage === 'projects'}
       <Projects />
+    {:else if currentPage === 'changes'}
+      <Changes />
     {:else if currentPage === 'contact'}
       <Contact />
     {/if}

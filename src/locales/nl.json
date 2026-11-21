@@ -22,11 +22,46 @@
         "title": "Contact"
     },
     "projects": {
-        "title": "Projecten"
+        "title": "Projecten",
+        "private": "Privéproject",
+        "view_code": "Bekijk code",
+        "items": {
+            "pawstamps": {
+                "title": "Pawstamps",
+                "description": "Een stickercollectie-app geïnspireerd door Pokemon GO. Gebruikers kunnen stickers uploaden en bekijken, locaties opzoeken en bevestigen of stickers er nog zijn. Het concept is vooral gericht op de furry-community."
+            },
+            "management": {
+                "title": "Management Systemen",
+                "description": "Een reeks samenhangende groepsprojecten voor Zuyd Hogeschool binnen de keuzemodule Interface Development. Samen hebben we een delivery-, admin- en ordermanagementomgeving ontwikkeld voor bezorgprocessen, beheer en bestelafhandeling."
+            },
+            "teamborder": {
+                "title": "TeamBorder",
+                "description": "Een multiplayer-Minecraft-minigame waarin teams samenwerken om de worldborder groter te maken. De border wordt kleiner als een speler doodgaat en groeit na een dag zonder overlijden."
+            },
+            "staffgui": {
+                "title": "Staff-GUI",
+                "description": "Een player-management-plugin gebouwd met Kotlin en gebruikmakend van de nieuwe Minecraft-dialogen voor een moderne staff-interface."
+            },
+            "todo": {
+                "title": "Todo App",
+                "description": "Een React-oefenapplicatie die ik heb gebouwd voor mijn stagebedrijf om voorafgaand aan mijn stage ervaring op te doen met React, Firebase en Material UI."
+            },
+            "datacopier": {
+                "title": "Data Copier",
+                "description": "Een stageproject met ASP.NET MVC waarmee developers verbinding konden maken met meerdere databases. Er kon precies worden gekozen welke databases, tabellen en kolommen moesten worden gekopieerd, bijvoorbeeld vanuit productie naar een lokale ontwikkeldatabase."
+            },
+            "minesweeper": {
+                "title": "Minesweeper",
+                "description": "Een Minesweeper-namaker die momenteel in Unity is gemaakt en later ook in Godot wordt nagemaakt om beide engines te vergelijken. Vervolgens maak ik de versie in de engine die mij het prettigst werkt online en multiplayer speelbaar."
+            }
+        }
     },
     "changes": {
         "title": "Wat er nog aangepast gaat worden",
-        "description": "Hier is een lijst van dingen die ik nog wil verbeteren of toevoegen aan mijn portfolio.",
-        "no_changes": "Er zijn momenteel geen wijzigingen gepland."
+        "description": "Hier is een lijst van dingen die ik nog wil verbeteren of toevoegen aan mijn portfolio",
+        "no_changes": "Er zijn momenteel geen wijzigingen gepland",
+        "changes_list": [
+            "Een complete verandering van de look en feel van de website"
+        ]
     }
 }

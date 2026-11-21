@@ -10,7 +10,7 @@
   },
   "home": {
         "greeting": "Hallo, ich bin Fabian",
-        "bio": "Ich bin ein Entwickler, der den gesamten Softwareprozess liebt, von Backend-Logik bis hin zu sauberen Frontend-Schnittstellen. Ob ich praktische Dashboards und Tools baue oder mit neuen Technologien experimentiere: Ich liebe es, mich neuen Herausforderungen zu stellen, funktionierende Dinge zu erschaffen und meine Fähigkeiten ständig zu erweitern.",
+        "bio": "Ich bin ein Entwickler, der den gesamten Softwareprozess liebt, von Backend-Logik bis hin zu sauberen Frontend-Designs. Ob ich praktische Dashboards und Tools baue oder mit neuen Technologien experimentiere: Ich liebe es, mich neuen Herausforderungen zu stellen, funktionierende Dinge zu erschaffen und meine Fähigkeiten ständig zu erweitern.",
         "interests_title": "Worauf ich mich konzentriere:",
         "interest_1": "Game Development",
         "interest_2": "Web Development",
@@ -22,11 +22,46 @@
     "title": "Kontakt"
   },
     "projects": {
-        "title": "Projekte"
+        "title": "Projekte",
+        "private": "Privates Projekt",
+        "view_code": "Code ansehen",
+        "items": {
+            "pawstamps": {
+                "title": "Pawstamps",
+                "description": "Eine von Pokemon GO inspirierte Sticker-Sammel-App. Nutzer konnen Sticker hochladen und durchsuchen, Orte finden und bestätigen, ob Sticker noch vorhanden sind. Das Konzept richtet sich hauptsächlich an die Furry-Community."
+            },
+            "management": {
+                "title": "Management-Systeme",
+                "description": "Eine Reihe zusammenhangender Gruppenprojekte für die Zuyd Hogeschool im Wahlmodul Interface Development. Gemeinsam haben wir Anwendungen für Delivery-, Admin- und Ordermanagement entwickelt."
+            },
+            "teamborder": {
+                "title": "TeamBorder",
+                "description": "Ein Multiplayer-Minecraft-Minispiel, bei dem Teams zusammenarbeiten, um die Worldborder zu vergroßern. Sie wird kleiner, wenn ein Spieler stirbt, und wächst nach einem Tag ohne Todesfall."
+            },
+            "staffgui": {
+                "title": "Staff-GUI",
+                "description": "Ein mit Kotlin entwickeltes Spielerveraltungs-Plugin, das die neuen Minecraft-Dialoge für eine moderne Staff-Oberflache nutzt."
+            },
+            "todo": {
+                "title": "Todo App",
+                "description": "Eine React-Ubungsanwendung, die ich für mein Praktikumsunternehmen entwickelt habe, um mich vor dem Praktikum mit React, Firebase und Material UI vertraut zu machen."
+            },
+            "datacopier": {
+                "title": "Data Copier",
+                "description": "Ein Praktikumsprojekt mit ASP.NET MVC, mit dem Entwickler Verbindungen zu mehreren Datenbanken herstellen konnten. Dabei konnten genau die Datenbanken, Tabellen und Spalten ausgewahlt werden, die kopiert werden sollten, zum Beispiel von einer Produktionsdatenbank in eine lokale Entwicklungsdatenbank."
+            },
+            "minesweeper": {
+                "title": "Minesweeper",
+                "description": "Eine Minesweeper-Neuentwicklung, die derzeit in Unity umgesetzt wird und spater auch in Godot nachgebaut werden soll, um beide Engines zu vergleichen. Anschließend mache ich die Version in der Engine, mit der ich am liebsten arbeite, online und multiplayer-fahig."
+            }
+        }
     },
     "changes": {
         "title": "Was geändert wird",
         "description": "Hier ist eine Liste von Dingen, die ich an meinem Portfolio verbessern oder hinzufügen möchte.",
-        "no_changes": "Derzeit sind keine Änderungen geplant."
+        "no_changes": "Derzeit sind keine Änderungen geplant.",
+        "changes_list": [
+            "Eine komplette Änderung des Aussehens und der Benutzeroberfläche der Website"
+        ]
     }
 }
