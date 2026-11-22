@@ -1,5 +1,6 @@
 <script>
     import { t } from 'svelte-i18n';
+    import githubIcon from '../assets/icons/github.svg';
 
     const projects = [
         {
@@ -106,7 +107,7 @@
                                     rel="noopener noreferrer"
                                 >
                                     <img
-                                        src="/src/assets/icons/github.svg"
+                                        src={githubIcon}
                                         alt=""
                                         class="size-5 invert"
                                         aria-hidden="true"
@@ -122,7 +123,7 @@
                                         rel="noopener noreferrer"
                                     >
                                         <img
-                                            src="/src/assets/icons/github.svg"
+                                            src={githubIcon}
                                             alt=""
                                             class="size-5 invert"
                                             aria-hidden="true"
